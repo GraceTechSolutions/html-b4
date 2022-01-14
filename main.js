@@ -90,7 +90,8 @@ line comment
 // <        less than
 // >=       grater than or equal to
 // <=       less than or equal to
-// ?
+// ?        ~ if condition
+// let canVote = age>= 18 ? 'Yes' : 'No'
 
 
 // Logical operators
@@ -135,3 +136,49 @@ line comment
 // >>
 // 0000000000000000101 = 5
 // 0000000000000000010 = 2
+
+
+// Control Statement
+// age = 27
+// // Function for check vote
+// if (age >= 18) {
+//     console.log('You can vote');
+// } else {
+//     console.log(`You can't vote`);
+// }
+
+// marks = 55
+// if (marks >= 90) {
+//     console.log('Grade A');
+// }
+// else if (marks >= 80) {
+//     console.log('Grade B');
+// } 
+// else if (marks >= 60) {
+//     console.log('Grade C');
+// } 
+// else if (marks>= 50) {
+//     console.log('Grade D');
+// } 
+// else if (marks >= 40) {
+//     console.log('Passed');
+// } 
+// else {
+//     console.log('Not Passed');
+// }
+
+// n = 1
+// Loop
+// while (n <= 10) {  // false
+//     console.log(n);
+//     n++ // 11
+// }
+// console.log('end of while loop...');
+
+
+// do {
+//     console.log(n);
+//     n++ // 11
+// } while(n <= 10) // false
+
+// console.log('end of do while loop...');
